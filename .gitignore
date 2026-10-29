@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Foundry build artifacts
+contracts/out/
+contracts/cache/
+
+# Environment files — NEVER commit secrets
+.env
+.env.local
+.env.*.local
+
+# Circle credentials — NEVER commit
+.circle/
+recovery_file*.dat
+
+# Editor / OS
+.DS_Store
+.vscode/
+*.swp
+*.swo
+
+# Bun lockfile (optional — keep if you want reproducible installs)
+# bun.lock
+
+# TypeScript build info
+node_modules/.tmp/
+
+# Arc Studio runtime logs (not source code)
+console.jsonl
+traces.jsonl
